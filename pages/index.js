@@ -23,40 +23,47 @@ export default function Home() {
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
           
           <div className="col" style={{margin: '0px 0px 20px 0px'}}>
-            <div className={styles.containerOverlay}>
-              <Image src="/sp.png" className={styles.image}  alt="AHK" width="800px" height="1000px"/> 
-              <div className={styles.overlay}>                
+            <a href="https://tiahk-associados.cs65.force.com/s/login/?language=pt_BR">
+              <div className={styles.containerOverlay}>
+                <Image src="/sp.png" className={styles.image}  alt="AHK" width="800px" height="1000px"/> 
+                <div className={styles.overlay}>                
+                </div>
+                <h5 className={styles.text}>São Paulo</h5>
               </div>
-              <h5 className={styles.text}>São Paulo</h5>
-            </div>
+            </a>
           </div>
 
           <div className="col" style={{margin: '0px 0px 20px 0px'}}>
-            <div className={styles.containerOverlay}>
-              <Image src="/rj.jpg" className={styles.image} alt="AHK" width="800px" height="1000px"/>
-              <div className={styles.overlay}>                
+            <a href="https://tiahk-associados.cs65.force.com/s/login/?language=pt_BR">
+              <div className={styles.containerOverlay}>
+                <Image src="/rj.jpg" className={styles.image} alt="AHK" width="800px" height="1000px"/>
+                <div className={styles.overlay}>                
+                </div>
+                <h5 className={styles.text}>Rio de Janeiro</h5>
               </div>
-              <h5 className={styles.text}>Rio de Janeiro</h5>
-            </div>
+            </a>
+          </div>
+
+          <div className="col" style={{margin: '0px 0px 20px 0px'}}>    
+            <a href="https://tiahk-associados.cs65.force.com/s/login/?language=pt_BR">   
+              <div className={styles.containerOverlay}>
+                <Image src="/poa.jpg" className={styles.image} alt="AHK" width="800px" height="1000px"/>              
+                <div className={styles.overlay}>                
+                </div>
+                <h5 className={styles.text}>Porto Alegre</h5>
+              </div>
+            </a> 
           </div>
 
           <div className="col" style={{margin: '0px 0px 20px 0px'}}>
-            <div className={styles.containerOverlay}>
-              <Image src="/poa.jpg" className={styles.image} alt="AHK" width="800px" height="1000px"/>
-              
-              <div className={styles.overlay}>                
+            <a href="https://tiahk-associados.cs65.force.com/s/login/?language=pt_BR">  
+              <div className={styles.containerOverlay}>
+                <Image src="/cur.jpg" className={styles.image} alt="AHK" width="800px" height="1000px"/>
+                <div className={styles.overlay}>                
+                </div>
+                <h5 className={styles.text}>Paraná</h5>
               </div>
-              <h5 className={styles.text}>Porto Alegre</h5>
-            </div>
-          </div>
-
-          <div className="col" style={{margin: '0px 0px 20px 0px'}}>
-            <div className={styles.containerOverlay}>
-              <Image src="/cur.jpg" className={styles.image} alt="AHK" width="800px" height="1000px"/>
-              <div className={styles.overlay}>                
-              </div>
-              <h5 className={styles.text}>Paraná</h5>
-            </div>
+            </a>
           </div>
 
           
