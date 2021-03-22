@@ -45,7 +45,7 @@ export default function Home() {
           </div>
 
           <div className="col" style={{margin: '0px 0px 20px 0px'}}>    
-            <a href="https://tiahk-associados.cs65.force.com/s/login/?language=pt_BR">   
+            <a href="https://tiahk-associados.cs65.force.com/s/ahkpr">   
               <div className={styles.containerOverlay}>
                 <Image src="/poa.jpg" className={styles.image} alt="AHK" width="800px" height="1000px"/>              
                 <div className={styles.overlay}>                
